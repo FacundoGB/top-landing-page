@@ -137,8 +137,26 @@ main {
 }
 
 .text {
+    padding-top: 8px;
     width: 150px;
 }
+/* QUOTE SECTION */
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    min-height: 400px; 
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER */
 
 footer {
     display: flex;
