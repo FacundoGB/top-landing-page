@@ -4,7 +4,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
 }
 
 
@@ -13,7 +12,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    color: #f9faf8;
     background-color: #1f2937;
     padding-left: 100px;
     padding-right: 100px;
@@ -23,6 +21,7 @@ nav {
 .header-logo {
     font-weight: 900;
     font-size: 24px;
+    color: #f9faf8;
 }
 
 ul {
@@ -31,13 +30,64 @@ ul {
     justify-content: space-between;
     text-align: center;
     gap: 20px;
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height:calc(100vh-100px);
+    align-items: center;
+    justify-items: center;
+}
+
+.home {
+    display: flex;
+    gap: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    justify-content: center;
+    background-color: #1f2937;
+   
+}
+
+
+.home-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-right > img {
+    max-width: 600px;
+    height: auto;
+}
+
+.home-button {
+    max-width: 100px;
+    padding: 6px;
+    background-color: #3882f6;
+    border: none;
+    color: #e5e7eb;
+    border-radius: 10px;
+}
+
+.home-title {
+    color: #e5e7eb;
+    margin: 0px;
+    
+}
+
+.home-description {
+    color: #e5e7eb;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
     background-color: #1f2937;
     color: #f9faf8;
     height: 60px;
