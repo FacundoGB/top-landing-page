@@ -1,6 +1,9 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 
 }
 
@@ -9,7 +12,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    height: 60px;
     color: #f9faf8;
     background-color: #1f2937;
     padding-left: 100px;
@@ -28,4 +31,14 @@ ul {
     justify-content: space-between;
     text-align: center;
     gap: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 60px;
 }
