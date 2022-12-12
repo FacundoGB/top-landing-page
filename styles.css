@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
 }
 
 /* HEADER SECTION */
@@ -42,6 +43,7 @@ main {
     display: flex;
     flex-direction: column;
     
+    
 }
 
 .home {
@@ -73,6 +75,7 @@ main {
     border: none;
     color: #e5e7eb;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 .home-title {
@@ -175,6 +178,61 @@ main {
     color:#1f2937;
     font-weight: bold;
 
+}
+
+/* CALL TO ACTION SECTION */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+    height: 120px;
+    width: 900px;
+}
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-text {
+    margin: 0;
+    font-size: 18px;
+    padding-top: 4px;
+}
+
+.call-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    
+}
+
+.call-right > button {
+    width: 120px;
+    padding: 5px;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    color: #e5e7eb;
+    border-radius: 6px;
+    font-weight: bold;
 }
 
 /* FOOTER */
