@@ -41,9 +41,6 @@ ul {
 main {
     display: flex;
     flex-direction: column;
-    height:calc(100vh-100px);
-    align-items: center;
-    justify-items: center;
     
 }
 
@@ -148,12 +145,14 @@ main {
     align-items: center;
     background-color: #e5e7eb;
     min-height: 400px; 
+    flex: 1;
 }
 
 .quote-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 /* FOOTER */
